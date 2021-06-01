@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<meta name="description" content="List of Youtube channels of Vocaloid/UTAU producers." />
+	<title>Vocaloid/UTAU artist Youtube channels</title>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" />
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<style media="screen" type="text/css">
+
+		img.artistThumb {
+			max-width: 70px;
+			max-height: 70px;
+		}
+
+		a.extLink {
+			padding: 2px 0 2px 20px;
+		}		
+
+		a.nicoLink {
+			background: url("nico.png") no-repeat left 50%;
+		}
+
+		a.vocaDbLink {
+			background: url("vocadb.png") no-repeat left 50%;
+		}
+
+		a.youtubeLink {
+			background: url("youtube.png") no-repeat left 50%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>
+			Vocaloid artist Youtube channels
+			<small id="artistCount"></small>
+		</h2>
+
+		<div class="row">
+			<div class="span7">
+				<table class="table table-striped" >
+					<tbody id="artistsTable"></tbody>
+				</table>
+			</div>
+		</div>
+
+		<small>Generated on <span id="generatedAt"></span> based on <a href="http://vocadb.net">VocaDB</a>.</small>
+	</div>
+</body>
+</html>
